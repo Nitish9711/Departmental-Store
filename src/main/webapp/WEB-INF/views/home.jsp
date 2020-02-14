@@ -12,7 +12,7 @@
   <%@include file="/WEB-INF/views/navbar.jsp"%>
     <section id="home-section" class="hero">
       <div class="home-slider owl-carousel">
-        <div class="slider-item" style="background-image: url(<c:url value='/resources/images/bg_1.jpg' />);">
+        <%--div class="slider-item" style="background-image: url(<c:url value='/resources/images/bg_1.jpg' />);">
           <div class="overlay"></div>
           <div class="container">
             <div class="row slider-text justify-content-center align-items-center" data-scrollax-parent="true">
@@ -24,9 +24,9 @@
 
             </div>
           </div>
-        </div>
+        </div--%>
 
-        <div class="slider-item" style="background-image: url(<c:url value='/resources/images/bg_2.jpg' />);">
+        <%--div class="slider-item" style="background-image: url(<c:url value='/resources/images/bg_2.jpg' />);">
           <div class="overlay"></div>
           <div class="container">
             <div class="row slider-text justify-content-center align-items-center" data-scrollax-parent="true">
@@ -39,10 +39,10 @@
             </div>
           </div>
         </div>
-      </div>
+      </div--%>
     </section>
 
-    <section class="ftco-section">
+    <%--section class="ftco-section">
       <div class="container">
         <div class="row no-gutters ftco-services">
           <div class="col-md-3 text-center d-flex align-self-stretch ftco-animate">
@@ -240,11 +240,11 @@
           </div>
         </div>
       </div>
-    </section>
+    </section--%>
 
     <hr>
 
-    <section class="ftco-section ftco-partner">
+    <%--section class="ftco-section ftco-partner">
         <div class="row justify-content-center mb-5 pb-3">
           <div class="col-md-7 heading-section ftco-animate text-center">
             <h2 class="mb-4">Our Partners</h2>
@@ -269,7 +269,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section--%>
     
     <%@include file='/WEB-INF/views/footer.jsp' %>
     

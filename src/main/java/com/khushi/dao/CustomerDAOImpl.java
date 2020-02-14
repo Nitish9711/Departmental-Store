@@ -46,7 +46,7 @@ public class CustomerDAOImpl implements CustomerDAO {
 				+ " street = ?, locality = ? where username = ?";
 		jdbcTemplate.update(sql,
 				new Object[] { customer.getfName(), customer.getlName(), customer.getEmail(), customer.getContact(),
-						customer.getAge(), customer.getHouseNo(), customer.getStreet(), customer.getUsername() });
+						customer.getAge(), customer.getHouseNo(), customer.getStreet(), customer.getLocality(), customer.getUsername() });
 	}
 
 	@Override

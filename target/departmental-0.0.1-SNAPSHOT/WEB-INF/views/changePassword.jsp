@@ -10,7 +10,7 @@
 <%@include file="/WEB-INF/views/header.jsp"%>
   <body class="goto-here">
 	<%@include file="/WEB-INF/views/navbar.jsp"%>
-    <div class="hero-wrap hero-bread" style="background-image: url(<c:url value='/resources/images/bg_1.jpg' />);">
+    <%--div class="hero-wrap hero-bread" style="background-image: url(<c:url value='/resources/images/bg_1.jpg' />);">
       <div class="container">
         <div class="row no-gutters slider-text align-items-center justify-content-center">
           <div class="col-md-9 ftco-animate text-center">
@@ -19,7 +19,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div--%>
 
     <section class="ftco-section">
       <div class="container">

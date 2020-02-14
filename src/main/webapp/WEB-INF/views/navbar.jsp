@@ -28,13 +28,13 @@
 								<a class="dropdown-item" href="/departmental/contactUs">Report
 									an issue</a>
 							</sec:authorize>
-							<sec:authorize
+							<%--sec:authorize
 								access="!hasRole('ROLE_ADMIN') and !hasRole('ROLE_VENDOR') and !hasRole('ROLE_COURIER')">
 								<a class="dropdown-item" href="/departmental/partner">Partner
 									with us</a>
-							</sec:authorize></li>
+							</sec:authorize></li--%>
 				</sec:authorize>
-				<sec:authorize access="hasRole('ROLE_COURIER')">
+				<%--sec:authorize access="hasRole('ROLE_COURIER')">
 					<li class="nav-item dropdown"><a
 						class="nav-link dropdown-toggle" href="#" id="dropdown04"
 						data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Orders</a>
@@ -47,7 +47,7 @@
 								href="/departmental/acceptedOrders">Accepted Orders</a> <a
 								class="dropdown-item" href="/departmental/deliveredOrders">Delivered
 								Orders</a></li>
-				</sec:authorize>
+				</sec:authorize--%>
 				<sec:authorize access="hasRole('ROLE_USER')">
 					<li class="nav-item"><a
 						href="/departmental/cart" class="nav-link"><span
@@ -67,10 +67,10 @@
 								<a class="dropdown-item" href="/departmental/acceptedProposals">
 									Accepted Proposals</a>
 							</sec:authorize>
-							<sec:authorize access="hasRole('ROLE_USER')">
+							<%--sec:authorize access="hasRole('ROLE_USER')">
 								<a class="dropdown-item" href="/departmental/viewOrders">My
 									Orders</a>
-							</sec:authorize>
+							</sec:authorize--%>
 							<a class="dropdown-item" href="/departmental/changePassword">Change
 								password</a>
 				</sec:authorize>
@@ -79,13 +79,13 @@
 						class="nav-link dropdown-toggle" href="#" id="dropdown04"
 						data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Settings</a>
 						<div class="dropdown-menu" aria-labelledby="dropdown04">
-							<a class="dropdown-item" href="/departmental/addVendor">Add a
+							<%--a class="dropdown-item" href="/departmental/addVendor">Add a
 								Vendor</a> <a class="dropdown-item"
 								href="/departmental/addDeliveryPartner">Add Delivery Partner</a>
 							<a class="dropdown-item" href="/departmental/addProd">Add
 								Product</a> <a class="dropdown-item"
 								href="/departmental/viewAllOrders">All Orders</a> <a
-								class="dropdown-item" href="/departmental/viewAllProposals">Proposals</a>
+								class="dropdown-item" href="/departmental/viewAllProposals">Proposals</a--%>
 							<a class="dropdown-item" href="/departmental/viewAllFeedbacks">Feedbacks</a>
 							<a class="dropdown-item" href="/departmental/changePassword">Change
 								password</a>

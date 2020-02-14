@@ -10,7 +10,7 @@
 <%@include file="/WEB-INF/views/header.jsp"%>
   <body class="goto-here">
 	<%@include file="/WEB-INF/views/navbar.jsp"%>
-    <div class="hero-wrap hero-bread" style="background-image: url(<c:url value='/resources/images/bg_1.jpg' />);">
+    <%--div class="hero-wrap hero-bread" style="background-image: url(<c:url value='/resources/images/bg_1.jpg' />);">
       <div class="container">
         <div class="row no-gutters slider-text align-items-center justify-content-center">
           <div class="col-md-9 ftco-animate text-center">
@@ -19,7 +19,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div--%>
 
   <section class="ftco-section ftco-cart">
     <div class="container">
@@ -100,10 +100,10 @@
               <span>Total</span> <span>Rs. ${total }</span>
             </p>
           </div>
-          <p>
+          <%--p>
             <a href="${pageContext.request.contextPath }/addressConfirm" class="btn btn-primary py-3 px-4">Proceed
               to Checkout</a>
-          </p>
+          </p--%>
         </div>
       </div>
     </div>
